@@ -6,6 +6,7 @@
 ## 작성 규칙
 
 - 문서는 주제별로 나누어 Markdown(`.md`)으로 작성합니다.
+- 문서 하나에는 주제 하나만 정리합니다.
 - 폴더와 파일명은 내용을 알 수 있는 영문으로 작성합니다.
 - 이해한 내용을 자신의 말로 정리하고, 참고 자료의 출처를 남깁니다.
 - 분량이나 매일 작성하는 것에 얽매이지 않고, 다시 읽었을 때 도움이 되는 기록을 남깁니다.
@@ -25,16 +26,17 @@ TIL/
 ├── README.md
 └── Python/
     ├── README.md
-    ├── python-startkit.md
-    ├── python-01-values.md
-    ├── python-02-flow.md
-    └── python-03-collections.md
+    ├── install-python-with-uv.md
+    ├── operator-precedence.md
+    ├── string-formatting.md
+    ├── short-circuit-evaluation.md
+    └── mutable-and-immutable.md
 ```
 
 ## 문서 작성 예시
 
 아래 틀을 기본으로 사용하되, 주제에 맞게 항목을 줄이거나 추가합니다.
-새 문서를 작성하면 해당 분류의 `README.md`에 링크를 추가합니다.
+새 문서를 작성하면 해당 분류의 `README.md`에서 알맞은 소주제 아래에 링크와 작성일을 추가합니다.
 
 ```markdown
 # 주제

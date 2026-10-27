@@ -57,7 +57,7 @@ uv run python --version
 `python-practice` 폴더의 `main.py`에 실행할 코드를 작성한다.
 
 ```python
-print("Hello, Python!")
+print('Hello, Python!')
 ```
 
 같은 폴더의 터미널에서 실행한다.
